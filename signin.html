@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+    <link href="signin.css" rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Sign-in</title>
+  </head>
+  <body>
+    <div class=" wrapper position-relative" style="width: 400px;margin: 0 auto;">
+      <div class="p-4 xyz" style="border: 3px solid #fff;border-radius: 4px;">
+
+    <h2 style="padding-bottom: 10px;">Login</h2>
+      <form onsubmit="event.preventDefault()" id="form" class="needs-validation" novalidate>
+        <div class="mb-3">
+          <label for="emailId" class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailId"
+            aria-describedby="emailHelp"
+            required
+          />
+        </div>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <!-- <div class="mb-3">
+          <label for="userNameId" class="form-label">User Name</label>
+          <input
+            type="user"
+            class="form-control"
+            id="userNameId"
+            aria-describedby="userHelp"
+            required
+          />
+        </div> -->
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="mb-3">
+          <label for="passwordId" class="form-label">Password</label>
+          <input type="password" class="form-control" id="passwordId" required/>
+        </div>
+        <div class="valid-feedback">
+          Looks good!
+        </div>
+        <div class="mb-3">
+          <a href="./index.html" class="link-dark abc">Don't have an account ? Sign Up</a>
+        </div>
+        
+        <button id="signin_btn" type="submit" class="btn " style="font-weight: 600;">Login</button>
+      </form>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="signin.js"></script>
+  </body>
+</html>

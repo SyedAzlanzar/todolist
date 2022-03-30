@@ -1,0 +1,54 @@
+
+body {
+    /* background: darkcyan; */
+    /* background: url('https://assets-global.website-files.com/614716f50b4f49202fdd0087/616949393cf90643c1403605_6423.png'); */
+    font-family: "Roboto", sans-serif;
+   /* background-size: cover */
+  background: white
+  
+  }
+  
+  @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+  
+
+
+.wrapper{
+    padding-top:80px;
+}
+.xyz{
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.4);
+
+}
+
+#signup_btn{
+  /* box-shadow: 0px 0px px 1px black; */
+  /* border: 1px solid rgb(255, 255, 255); */
+  background: #fff;
+  padding: 2px 8px;
+  color: gray;
+  box-shadow: 0px 0px 1px ;
+}
+
+#signup_btn:hover{
+  background: rgba(255, 255, 255, 0.76);
+  color: black;
+  
+}
+
+.abc:hover{
+  color:#000
+}
+
+@media screen and (min-width:320px) and (max-width: 425px) {
+  .wrapper{
+      width: auto;
+      /* margin: 0 auto; */
+      display: flex;
+      justify-content: center;
+      align-content: space-around;
+      flex-wrap: wrap;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 60px;
+  }
+  }

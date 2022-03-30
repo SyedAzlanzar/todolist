@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <link href="index.css" rel="stylesheet" />
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <title>Sign-up</title>
+  </head>
+  <body>
+    <div class="wrapper mx-auto mt-0 " style="width: 400px;">
+      <div class="p-4 xyz" style="border: 3px solid #fff;border-radius: 4px;">
+      <h2 style="padding-bottom: 10px;">Lets get Started</h2>
+      <form id="form" onsubmit="event.preventDefault()">
+        <div class="mb-3">
+          <label  class="form-label">Email address</label>
+          <input
+            type="email"
+            class="form-control"
+            id="emailId"
+            autocomplete="off"
+required
+          />
+          <div id="emailHelp" class="form-text" style="color: #bcccd4;">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">User Name</label>
+          <input
+            type="user"
+            class="form-control"
+            id="userNameId"
+            autocomplete="off"
+required
+            
+          />
+        </div>
+        <div class="mb-3">
+          <label  class="form-label">Password</label>
+          <input type="password" class="form-control" id="passwordId" required />
+        </div>
+        <!-- <div class="mb-3">
+          <label for="ConfirmPasswordId" class="form-label"
+            >Confirm Password</label
+          >
+          <input type="password" class="form-control" id="ConfirmPasswordId" />
+        </div> -->
+        <div class="mb-3">
+          <a href="./signin.html" class="link-dark abc" >Already have an account?</a>
+        </div>
+        
+        <button type="submit" class="btn " id="signup_btn" style="font-weight: 600;">Signup</button>
+      </form>
+    </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="index.js"></script>
+  </body>
+</html>

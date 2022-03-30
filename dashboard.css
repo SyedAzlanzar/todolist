@@ -1,0 +1,202 @@
+body {
+  /* background: darkcyan; */
+  /* background: url('https://assets-global.website-files.com/614716f50b4f49202fdd0087/616949393cf90643c1403605_6423.png'); */
+  font-family: "Roboto", sans-serif;
+  /* background-size: cover */
+  background:linear-gradient(-90deg,#ddd8d8,#888181)
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+#inputId {
+  font-size: 24px;
+  padding: 10px;
+  min-width: 30%;
+  /* max-width: 100%; */
+  outline: none;
+  border: none;
+  border-radius: 5px 0px 0px 5px;
+}
+
+
+#addbtn {
+  font-size: 24px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+  /* min-width: 30%; */
+  /* max-width: 100%; */
+}
+#main {
+  margin: 0 auto;
+  /* background-color: aqua; */
+  width: 34.5%;
+  margin-top: 20px;
+  border-radius: 4px;
+}
+/* .task {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  align-items: center;
+  font-size: 20px;
+  margin-top: 8px;
+  border-radius: 4px;
+  border-top: 2px solid #fff;
+  border-right: 2px solid #fff;
+  border-left: 2px solid #fff;
+  /* box-shadow:0px 0px 5px rgba(12, 52, 228, 0.6); 
+}/*
+.btns {
+  font-size: 22px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}*/
+/*
+.at {
+  font-size: 14px;
+  display: flex;
+  justify-content: end;
+  border-bottom: 2px solid white;
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+  padding: 6px;
+  border-radius: 4px;
+  position: relative;
+  margin-top: -6px;
+} */
+
+.sub-main {
+  box-shadow: 0px 0px 5px rgba(63, 43, 43,0.9);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 14px;
+  background-color: #fff;
+  /* opacity: 1; */
+}
+
+.sub-main-1 {
+ 
+  display: flex;
+  /* background-color: aqua; */
+  padding: 6px;
+  border-radius: 4px;
+  align-content: center;
+  width: auto;
+}
+
+.task {
+  font-size: 22px;
+  background-color:rgba(255, 255, 255, 0.099);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  /* margin: 2px; */
+  margin-right: 7px;
+/* box-shadow: 1px  1px 5px  inset rgb(0, 0, 0); */
+  box-shadow: 0px 0px 5px inset rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  padding-left: 6px;
+}
+
+.delete {
+  font-size: 20px;
+  padding: 5px;
+  box-shadow: 0px 0px 5px inset rgba(0, 0, 0, 0.4);
+  border-radius: 3px;
+  /* background-color: lightgray; */
+  margin-right: 2px;
+  cursor: pointer;
+
+}
+
+.edit {
+  font-size: 20px;
+  padding: 5px;
+  box-shadow: 0px 0px 5px inset rgba(0, 0, 0, 0.4);
+
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
+  border-radius: 3px;
+  /* background-color: lightgray; */
+  margin-left: 2px;
+  cursor: pointer;
+}
+
+.sub-main-2 {
+  display: flex;
+  justify-content: end;
+  padding: 6px;
+}
+
+.sub-main-2-span {
+  box-shadow: 0px 0px 5px inset rgba(0, 0, 0, 0.4);
+  /* box-shadow: 0px 0px 5px rgba(0, 0, 0, 1); */
+  border-radius: 3px;
+ font-size: 12px;
+  padding: 3px;
+}
+
+
+#save{
+  font-size: 24px;
+  padding: 10px;
+  outline: none;
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+#btn{
+  outline: none;
+  border: none;
+  padding:2px ;
+  border-radius: 0px 4px 4px 0px;
+}
+
+
+@media screen and (min-width:320px) and (max-width:375px)  {
+  #main{
+    width: 100%;
+  }
+  
+}
+
+@media screen and (min-width:376px) and (max-width:425px)  {
+  #main{
+    width: 90%;
+  }
+  
+}
+
+@media screen and (min-width:426px) and (max-width:480px)  {
+  #main{
+    width: 78.5%;
+  }
+  
+}
+
+
+@media screen and (min-width:481px) and (max-width:620px)  {
+  #main{
+    width: 60.5%;
+  }
+  
+}
+
+
+@media screen and (min-width:621px) and (max-width:768px)  {
+  #main{
+    width: 48%;
+  }
+  
+}
