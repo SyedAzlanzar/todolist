@@ -23,8 +23,12 @@ var signin = function () {
 
         }
     else if(emailId === '') {
-       Swal.fire("Invalide Email or Password");
+       Swal.fire("Invalid Email or Password");
        return
+    }
+    else{
+      Swal.fire("Invalid Email")
+      return
     }
     
   });
